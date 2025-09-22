@@ -1,11 +1,11 @@
 @font-face {
     font-family: Winter;
-    src: url(../fonts/Warm\ Winter.ttf);
+    src: url(fonts/Warm\ Winter.ttf)
 }
 
 @font-face {
     font-family: LexendDeca;
-    src: url(../fonts/LexendDeca-Light.ttf);
+    src: url(fonts/LexendDeca-Light.ttf);
 }
 
 .weekday-row {
