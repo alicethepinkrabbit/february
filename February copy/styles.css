@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Winter;
+    src: url(../fonts/Warm\ Winter.ttf);
+}
+
+@font-face {
+    font-family: LexendDeca;
+    src: url(../fonts/LexendDeca-Light.ttf);
+}
+
+.weekday-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.weekday {
+    flex: 0 0 calc((100% - 6*10px)/7);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 27, 67);
+    font-family: Winter;
+    font-size: 25px;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.day {
+    flex: 0 0 calc((100% - 6*10px)/7);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 27, 67);
+    padding: auto rgb(219, 233, 255)
+}
+
+body {
+    background-color: rgb(174, 206, 255);
+    text-align: center;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.main-container {
+    width: 60%;
+    margin: auto;
+    font-size: 30px rgb(0, 27, 67);
+}
+
+image {
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.header {
+    color: rgb(0, 27, 67);
+    font-family: Winter;
+    font-size: 50px;
+}
+
+.num-day {
+    color: rgb(0, 27, 67);
+    font-family: LexendDeca;
+    font-size: 20px;
+}
